@@ -120,7 +120,7 @@ $conn->query($sql);
 }}}}}?>
 <body>
 
-	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>&delete=0&post=0">
+	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 		
 			<h1>Registration Form</h1>
 			<label for="first_name"><b>First Name</b></label>
